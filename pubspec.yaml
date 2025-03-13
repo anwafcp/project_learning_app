@@ -1,0 +1,54 @@
+name: studysphere
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.4
+  smooth_page_indicator: ^1.2.0+3
+  raised_buttons: ^0.0.2
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.7
+  firebase_auth: ^5.4.2
+  cloud_firestore: ^5.6.3
+  shared_preferences: ^2.5.2
+  firebase_core: ^3.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/onboarding/
+    - assets/images/splash/
+    - assets/images/Teacher/
+
+# Configure the splash screen
+flutter_native_splash:
+
+  color: "#086C54" # Background color of the splash screen
+  image: "assets/images/splash/splash.png"
+  android: true # Enable for Android
+  ios: true # Enable for iOS
+  web: true # Enable for Web (optional)
+
+  android_12:
+    color: "#086C54"
+    image: "assets/images/splash/splash.png"
+    android: true
+    ios: true
+    web: true
+
+
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930350527592",
+    "project_id": "study-sphere-327cb",
+    "storage_bucket": "study-sphere-327cb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930350527592:android:89290e8d7028c7ebb177dd",
+        "android_client_info": {
+          "package_name": "com.example.studysphere"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVwKZr1E8qYhi98ViIF_cqxPR9xAb7uFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
